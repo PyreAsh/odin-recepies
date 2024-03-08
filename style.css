@@ -1,5 +1,13 @@
+* {
+    font-family: "Papyrus";
+    line-height: normal;
+}
 .head {
   text-align: center;
+  margin: 100px;
+  font-weight: bold;
+  padding: 2%;
+  border: 2mm ridge black;
 }
 
 
@@ -33,4 +41,29 @@ p {
 
 body {
     background-color: beige;
+}
+
+.run {
+    padding: 15px;
+    border: 2mm ridge red;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+#cat {
+    font-weight: bold;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    color: red;
+}
+
+#cats {
+    font-weight: lighter;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: green;
+}
+
+.years {
+    margin-bottom: 100px;
 }
